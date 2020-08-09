@@ -5,7 +5,7 @@ In order to play the game: you are a snake that you can control with your arrow 
 The goal is to eat as many bananas as possible while avoiding eating your own tail.
 The longer you get, the faster it goes!
 
-### Screenshot
+### Walkthrough 
 
 ![Preview](https://imagizer.imageshack.com/img923/6536/FwnwPw.png)
 
@@ -27,6 +27,9 @@ This is responsible of let you know you lost, but can play again.
 
 In order to use the Snapchat login and bitmoji functionality on index.html, your Snap username will need to be added
 to the project on SnapKit.
+[Play with bitmoji](https://maria-a-snake.glitch.me)
+If you want to play without the bitmoji functionality you can use the following link.
+[Play without bitmoji](https://maria-a-snake.glitch.me/game.html)
 
 ## Languages used
 
