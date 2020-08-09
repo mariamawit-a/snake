@@ -1,0 +1,32 @@
+<!-- 
+game.html
+
+This code displays what you see when you first load https://t1-snakesquad-completed.glitch.me/game.html, which 
+is mostly a HTML5 canvas (that the game will appear on). It relies on game.css for styling and game.js for interactivity. 
+
+You don't need to make any changes here. 
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/game.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <div>
+    <button onclick="muteAudio()"><i id="MyElement" class="fas fa-volume-up"></i></button>
+    <audio id="myAudio" src="https://cdn.glitch.com/d6c55d80-1575-4807-9ff9-923f981731dd%2FMinions%20Banana%20Song%20Full%20Song.mp3?v=1595356619071"></audio>
+    <div id="scoreBoard">
+      <p id="score"> Score : 0</p>
+      <p id="level"> Level: 1</p>
+      <p id="high"> Highscore : 0</p>
+    </div>
+    <canvas width="850" height="850" id="game"></canvas>
+    <div style="display:none;"> <!-- These are hidden elements that we will display in game.js --> 
+      <img id="avatar" >
+      <img id="apple" src="https://imagizer.imageshack.com/v2/200x200q90/923/qDD4eE.jpg">
+    </div>
+  </div>  
+  <script src="/game.js" defer></script>
+</body>
+</html> 
