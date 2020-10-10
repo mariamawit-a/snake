@@ -7,7 +7,7 @@ The longer you get, the faster it goes!
 
 ### Walkthrough 
 
-![Preview](https://imagizer.imageshack.com/img923/6536/FwnwPw.png)
+<img src="snake.gif"/>
 
 ## Files
 
